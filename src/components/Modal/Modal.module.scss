@@ -1,0 +1,26 @@
+@import "../../stylesheet/shared.scss";
+.overlay {
+  align-items: start;
+  margin-top: 60px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  z-index: 1200;
+  @include mq(mobile) {
+    align-items: center;
+    margin-top: 0px;
+      background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+.modal {
+  border-radius: 20px;
+  width: 540px;
+  max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 24px);
+  background-color: #fff;
+}
