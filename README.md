@@ -1,11 +1,6 @@
-Додаток для ведення фінансового статку "Wallet"
+Application for managing financial wealth "Wallet"
 
-Гаманець розроблений за сучасним принципом Single Page Application, що дозволяє
-користувачу при переході за адресою, завантажувати тільки одну сторінку, а потім
-відмалювати необхідні елементи сторінки без перезавантаження. Задля безпеки
-даних користувача, у застосунку реалізовано перехід по так званим Приватним та
-Публічним маршрутам, щоб сторонні користувачі не змогли потрапити до особистих
-фінансів.
+The wallet is designed according to the modern principle of Single Page Application, which allows the user to load only one page when browsing the address, and then draw the necessary elements of the page without reloading. For the security of user data, the application implements a transition through the so-called Private and Public routes, so that third-party users cannot access personal finances.
 
 Для нових користувачів передбачена сторінка реєстрації, на якій ми можемо
 заповнити форму та скористатися усім функціоналом додатку. Якщо коротко, то я
