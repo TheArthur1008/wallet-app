@@ -1,6 +1,7 @@
 @import "../../stylesheet/shared.scss";
 .overlay {
-  align-items: start;
+  display: flex;
+  align-items: center;
   margin-top: 60px;
   background-color: #fff;
   position: fixed;
@@ -11,7 +12,6 @@
   justify-content: center;
   z-index: 1200;
   @include mq(mobile) {
-    align-items: center;
     margin-top: 0px;
       background-color: rgba(0, 0, 0, 0.8);
   }

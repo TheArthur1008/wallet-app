@@ -1,6 +1,5 @@
 @import "../../stylesheet/shared.scss";
 .transaction {
-  margin-top: 100px;
   padding: 20px 0px;
   @include mq(mobile) {
     padding: 30px 35px;
@@ -12,12 +11,11 @@
 }
 .button {
   &Close {
-    display: none;
     background-color: transparent;
     border: none;
     position: absolute;
     right: 20px;
-    top: 20px;
+    top: 10px;
     @include mq(mobile) {
       display: block;
     }
